@@ -25,6 +25,9 @@ Git & GitHub:-version control and project hosting
 
 # 🏗️ Architecture Diagram (AWS)
 
+
+<img width="706" height="424" alt="WhatsApp Image 2026-10-22 at 3 19 50 PM" src="https://github.com/user-attachments/assets/08164c01-f19a-4796-af99-b94565de37eb" />
+
 Flow: User → Internet → Security Group → Nginx → PHP-FPM → MariaDB → Response back to user.
 
 
@@ -46,7 +49,7 @@ CREATE TABLE users ( name VARCHAR(100), email VARCHAR(100), website VARCHAR(100)
 
 Deploy the project cd /usr/share/nginx/html
 
-clone the files sudo git clone 
+clone the files sudo git clone https://github.com/Harshal2102/php-project.git
 
 copy signup.html and submit.php into php-project/
 Restart services sudo systemctl restart nginx php-fpm
